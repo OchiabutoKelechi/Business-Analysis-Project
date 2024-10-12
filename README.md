@@ -1,10 +1,10 @@
 # Sales Analysis Project
 
 ## Project Overview
-The primary objective of this project is to conduct a comprehensive analysis of the sales performance of the company. The analysis aims to identify key insights, such as the company's best-selling stores and products, sales trends, and customer segmentation, and purchasing behavior from January 2021 to March 2023. Additionally, the project will explore the effectiveness of different payment methods in driving sales. These insights will empower stakeholders to make informed, data-driven decisions, allowing the company to leverage its top-performing stores and products to enhance revenue. Furthermore, strategies will be formulated to improve the sales of underperforming products and overall sales performance. Ultimately, this analysis will provide actionable recommendations to help the company achieve its revenue targets.
+The primary objective of this project is to conduct a comprehensive analysis of the company's sales performance. The analysis aims to identify key insights, such as the company's best-selling stores and products, sales trends, customer segmentation, and customers' purchasing behavior from January 2021 to March 2023. Additionally, the project will explore the effectiveness of different payment methods in driving sales. These insights will empower stakeholders to make informed, data-driven decisions, allowing the company to leverage its top-performing stores and products to boost revenue. Furthermore, strategies will be formulated to improve the sales of underperforming products and overall sales performance. Ultimately, this analysis will provide actionable recommendations to help the company achieve its revenue targets.
 
 ## Data Source
-For this analysis, data was sourced from Kaggle repository website. The data set encompasses various sales metrics that are vital for understanding the business landscape of company.
+For this analysis, data was sourced from the Kaggle repository website. The data set encompasses various sales metrics that are vital for understanding the business landscape of the company.
 The columns contained in the data included:
 - Invoice number
 - Customer ID
@@ -29,9 +29,9 @@ Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.
 
 ## Data Cleaning and Transformation
 
-- The first step involved converting the entire dataset into a table format. This was accomplished using the keyboard shortcuts Ctrl + A (to select all) followed by Ctrl + T (to create a table). This transformation allows for easier navigation, filtering, and analysis of the data.
+- The first step involved converting the entire dataset into a table format. This was accomplished using the keyboard shortcuts Ctrl + A followed by Ctrl + T. This transformation allows for easier navigation, filtering, and analysis.
 
-- To ensure the integrity of the dataset, duplicate entries across all columns were removed. This was executed using Excel’s "Remove Duplicates" feature, which guarantees that only unique and relevant data points are included in the analysis.
+- To ensure the integrity of the dataset, duplicate entries across all columns were removed. This was executed using Excel’s "Remove Duplicates" feature, which ensured that only unique and relevant data points were included in the analysis.
 
 - Unnecessary spaces within the dataset were eliminated using the TRIM function in Excel. This step is crucial as it enhances data quality by ensuring that no extraneous whitespace interferes with analysis.
 
@@ -41,7 +41,7 @@ Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.
 
 - The first row of the dataset was transformed to create properly titled and capitalized headers for each column. This step enhances clarity and readability, making it easier to understand the data structure.
 
-- To better analyze customer behavior, I utilized the "Conditional Column" feature in Power Query. This feature enabled me to group customers into various age brackets, facilitating more detailed insights into purchasing patterns.
+- To better analyze customer behavior, I utilized the "Conditional Column" feature in Power Query. This feature enabled me to group customers into various Age brackets, facilitating more detailed insights into purchasing patterns.
 
 - Using DAX, I calculated the Year-over-Year (YoY) sales of the business. This measure provides insights into sales growth over the specified period, allowing for trend analysis.
 
@@ -68,7 +68,7 @@ To enhance navigation and comprehension of the insights derived from the data, I
 
 #### The following summarizes the general insights obtained from the analysis:
 
-1) Total Sales: Over the business years 2021-2023, the company generated a total sales revenue of $68.54 million. The analysis indicates a consistent upward trajectory in yearly sales.
+1) Total Sales: Between January 2021- March 2023, the company generated a total sales revenue of $68.54 million. The analysis indicates a consistent upward trajectory in yearly sales.
 
 2) Quantity Sold: A total of 298,712 products were sold during this period, reflecting strong customer engagement and product demand.
 
@@ -102,7 +102,7 @@ To enhance navigation and comprehension of the insights derived from the data, I
 
 ## Conclusion
 
-This project has shown the efficacy of using Data Analysis to derive real-time business insights, and make strategic data-driven decisions and recommendations that would enable the company to increase its sales and meet the organization's revenue targets.
+This project has shown the efficacy of using Data Analysis to derive real-time business insights and make strategic data-driven decisions and recommendations that would enable the company to increase its sales and meet the organization's revenue targets.
 
 
 
