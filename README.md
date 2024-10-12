@@ -1,10 +1,10 @@
-# Sales Analysis Project
+# Business Analysis Project
 
 ## Project Overview
 The primary objective of this project is to conduct a comprehensive analysis of the company's sales performance. The analysis aims to identify key insights, such as the company's best-selling stores and products, sales trends, customer segmentation, and customers' purchasing behavior from January 2021 to March 2023. Additionally, the project will explore the effectiveness of different payment methods in driving sales. These insights will empower stakeholders to make informed, data-driven decisions, allowing the company to leverage its top-performing stores and products to boost revenue. Furthermore, strategies will be formulated to improve the sales of underperforming products and overall sales performance. Ultimately, this analysis will provide actionable recommendations to help the company achieve its revenue targets.
 
 ## Data Source
-For this analysis, data was sourced from the Kaggle repository website. The data set encompasses various sales metrics that are vital for understanding the business landscape of the company.
+The data used for this project was sourced from the Kaggle repository website. The data set encompasses various sales metrics that are vital for understanding the business landscape of the company.
 The columns contained in the data included:
 - Invoice number
 - Customer ID
@@ -36,6 +36,8 @@ Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.
 - Unnecessary spaces within the dataset were eliminated using the TRIM function in Excel. This step is crucial as it enhances data quality by ensuring that no extraneous whitespace interferes with analysis.
 
 - Data accuracy was further improved by addressing misspellings. The "Find and Replace" function in both Excel and Power Query was employed to correct erroneous entries, ensuring consistency in data representation.
+
+- VLOOKUP was used to merge the two Excel worksheets containing the data into a single sheet while referencing the Customer ID in both sheets.
 
 - Any blank rows in the dataset were deleted to maintain data integrity. This action prevents gaps in the data that could lead to misleading analysis or results.
 
