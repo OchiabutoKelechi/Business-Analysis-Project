@@ -1,10 +1,10 @@
 # Business Analysis Project
 
 ## Project Overview
-The primary objective of this project is to conduct a comprehensive analysis of the company's sales performance. The analysis aims to identify key insights, such as the company's best-selling stores and products, sales trends, customer segmentation, and customers' purchasing behavior from January 2021 to March 2023. Additionally, the project will explore the effectiveness of different payment methods in driving sales. These insights will empower stakeholders to make informed, data-driven decisions, allowing the company to leverage its top-performing stores and products to boost revenue. Furthermore, strategies will be formulated to improve the sales of underperforming products and overall sales performance. Ultimately, this analysis will provide actionable recommendations to help the company achieve its revenue targets.
+The primary objective of this project is to conduct a comprehensive analysis of the company's sales performance. The analysis aims to identify key insights, such as the company's best-selling stores and products, sales trends, customer segmentation, and customers' purchasing behavior from January 2021 to March 2023. Additionally, the project will explore the effectiveness of different payment methods in driving sales. These insights will empower stakeholders to make data-driven decisions, allowing the company to leverage its top-performing stores and products to boost revenue. Furthermore, strategies will be formulated to improve the sales of underperforming products and overall sales performance. Ultimately, this analysis will provide actionable recommendations to help the company achieve its revenue targets.
 
 ## Data Source
-The data used for this project was sourced from the Kaggle repository website. The data set encompasses various sales metrics that are vital for understanding the business landscape of the company.
+The data used for this project was sourced from the Kaggle repository website. The data set encompasses various sales metrics vital for understanding the company's business landscape.
 The columns contained in the data included:
 - Invoice number
 - Customer ID
@@ -23,7 +23,7 @@ Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.
 
 1) Microsoft Excel: Employed for data cleaning and transformation to prepare the data for analysis.
 
-2) Power Query Editor: Utilized for advanced data cleaning and transformation tasks, enabling a streamlined approach to handle large datasets effectively.
+2) Power Query Editor: Utilized for further data cleaning and transformation, enabling a streamlined approach to handle large datasets effectively.
 
 3) Power BI: Leveraged to create interactive visualizations and dashboards, facilitating the extraction and presentation of key insights from the data.
 
@@ -31,7 +31,7 @@ Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.
 
 - The first step involved converting the entire dataset into a table format. This was accomplished using the keyboard shortcuts Ctrl + A followed by Ctrl + T. This transformation allows for easier navigation, filtering, and analysis.
 
-- To ensure the integrity of the dataset, duplicate entries across all columns were removed. This was executed using Excel’s "Remove Duplicates" feature, which ensured that only unique and relevant data points were included in the analysis.
+- To ensure the integrity of the dataset, duplicate entries across all columns were removed. This was executed using Excel’s "Remove Duplicates" feature, which ensured that unique and relevant data were included in the analysis.
 
 - Unnecessary spaces within the dataset were eliminated using the TRIM function in Excel. This step is crucial as it enhances data quality by ensuring that no extraneous whitespace interferes with analysis.
 
@@ -39,13 +39,13 @@ Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.
 
 - VLOOKUP was used to merge the two Excel worksheets containing the data into a single sheet while referencing the Customer ID in both sheets.
 
-- Any blank rows in the dataset were deleted to maintain data integrity. This action prevents gaps in the data that could lead to misleading analysis or results.
+- Blank rows in the dataset were deleted to maintain data integrity. This action prevents gaps in the data that could lead to misleading analysis or results.
 
 - The first row of the dataset was transformed to create properly titled and capitalized headers for each column. This step enhances clarity and readability, making it easier to understand the data structure.
 
 - To better analyze customer behavior, I utilized the "Conditional Column" feature in Power Query. This feature enabled me to group customers into various Age brackets, facilitating more detailed insights into purchasing patterns.
 
-- Using Power Query DAX, I calculated the Year-over-Year (YoY) sales of the business. This measure provides insights into sales growth over the specified period, allowing for trend analysis.
+- Using Power Query DAX, I calculated the business's Year-over-Year (YoY) sales. This measure provides insights into sales growth over the specified period, allowing for trend analysis.
 
 - To determine the actual sales for each product, I employed the SUMX DAX formula. This calculation multiplies the "Unit Price" column by the "Quantity" column, enabling a clear assessment of revenue generated by each product.
 
@@ -55,14 +55,14 @@ Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.
 
 After thoroughly cleaning and transforming the dataset into a usable format, I undertook a comprehensive Exploratory Data Analysis (EDA) to gain an in-depth understanding of the data and derive actionable business insights. The following key business questions guided my analysis and informed the visualizations I created:
 
-- What is the total sales?
-- Which Store generated the highest sales?
-- Which product(s) generate the highest sales?
-- Which payment method did customers use most frequently?
-- What are the customer's age groups?
+- What is the Total Sales?
+- Which Store generated the highest Sales?
+- Which Product(s) generated the highest Sales?
+- Which Payment Method did customers use most frequently?
+- What are the Customer's age groups?
 - Between Male and Female customers, who made the highest purchases?
-- What is the sales trend? Which Month(s) and Quarter generated the highest Sales?
-- What is the Year-over-Year (YoY) Sales trend?
+- What is the Sales trend?
+- What is the Year-over-Year (YoY) Sales?
 
 ## Data Analysis
 
@@ -70,7 +70,7 @@ To enhance navigation and comprehension of the insights derived from the data, I
 
 #### The following summarizes the general insights obtained from the analysis:
 
-1) Total Sales: Between January 2021- March 2023, the company generated a total sales revenue of $68.54 million. The analysis indicates a consistent upward trajectory in yearly sales.
+1) Total Sales: Between January 2021- March 2023, the company generated $68.54 million in Sales. The analysis indicates a consistent upward trajectory in yearly sales.
 
 2) Quantity Sold: A total of 298,712 products were sold during this period, reflecting strong customer engagement and product demand.
 
@@ -94,9 +94,9 @@ To enhance navigation and comprehension of the insights derived from the data, I
 
 - From the analysis, Clothing is the top-selling category, consider expanding the clothing line with new styles or exclusive collections. Additionally, analyzing customer preferences in Shoes and Technology can help tailor inventory to meet demand and boost sales.
 
-- With female customers generating a significantly higher percentage of sales, develop marketing strategies that specifically target this demographic. This could include personalized promotions, collaborations with female influencers, or loyalty programs designed for women.
+- With female customers generating a significantly higher percentage of sales, develop marketing strategies that specifically target this demographic. This could include personalized promotions, collaborations with female influencers, or loyalty programs designed for women. Also, a similar approach for male customers should be implemented to encourage more patronage from the demographic.
 
-- While Cash remains the most popular payment method, increasing the availability of digital payment options like Debit and Credit cards could potentially boost overall sales.
+- While Cash remains the most popular Payment Method, increasing the availability of digital payment options like Debit and Credit cards could boost overall sales.
 
 - To better understand customer preferences and improve product offerings, establish mechanisms for collecting customer feedback. Surveys, suggestion boxes, or online reviews can provide valuable insights to inform future business decisions and enhance customer satisfaction.
 
