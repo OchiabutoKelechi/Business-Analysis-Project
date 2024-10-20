@@ -104,4 +104,4 @@ To enhance navigation and comprehension of the insights derived from the data, I
 
 ## Conclusion
 
-This project has shown the efficacy of using Data Analysis to derive real-time business insights and make strategic data-driven decisions and recommendations that would enable the company to increase its sales and meet the organization's revenue targets.
+This project has shown the efficacy of using Data Analysis to derive real-time business insights and make strategic data-driven decisions and recommendations that would enable the company to increase its sales, and meet the organization's revenue targets.
